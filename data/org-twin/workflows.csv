@@ -1,0 +1,13 @@
+workflow_id,workflow_name,criticality,owner_facility_id,minimum_active_personnel,task_work_hours
+WF-01,Incident Response Coordination,5,FAC-ATL,4,4.5
+WF-02,Geospatial Threat Assessment,5,FAC-DEN,4,5
+WF-03,Cybersecurity Monitoring,5,FAC-CHI,4,5.5
+WF-04,Service Request Fulfillment,4,FAC-SAN,6,6
+WF-05,Executive Crisis Reporting,5,FAC-DC,3,6.5
+WF-06,Workforce Redeployment,4,FAC-DC,3,7
+WF-07,Data Integration and Quality,4,FAC-DEN,5,7.5
+WF-08,Regional Logistics Routing,4,FAC-ATL,4,8
+WF-09,Financial Continuity Tracking,3,FAC-CHI,3,8.5
+WF-10,AI Workflow Augmentation,3,FAC-DEN,3,9
+WF-11,Public and Internal Communications,4,FAC-DC,4,9.5
+WF-12,Business Continuity Planning,5,FAC-SAN,4,10

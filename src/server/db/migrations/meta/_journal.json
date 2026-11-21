@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1794690745984,
+      "tag": "0000_watery_ezekiel_stane",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1794692947895,
+      "tag": "0001_demo_seed_data",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1794701866219,
+      "tag": "0002_robust_morlun",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795299455209,
+      "tag": "0003_even_lady_deathstrike",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1795301969884,
+      "tag": "0004_dizzy_living_tribunal",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1795301970329,
+      "tag": "0005_org_twin_seed",
+      "breakpoints": true
+    }
+  ]
+}

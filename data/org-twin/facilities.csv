@@ -1,0 +1,6 @@
+facility_id,facility_name,city,state,primary_function,headcount_target
+FAC-ATL,Atlanta Operations Hub,Atlanta,GA,Operations,20
+FAC-CHI,Chicago Coordination Center,Chicago,IL,Coordination,20
+FAC-DC,Washington Headquarters,Washington,DC,Headquarters,20
+FAC-DEN,Denver Technology Center,Denver,CO,Technology,20
+FAC-SAN,San Diego Service Center,San Diego,CA,Service Delivery,20

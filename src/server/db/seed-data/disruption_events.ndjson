@@ -1,0 +1,10 @@
+{"eventId":"DIS-EVT-0001","corridorId":"S-005","eventType":"slowdown","occurredAt":"2026-11-14T15:00:00.000Z","delayMin":35}
+{"eventId":"DIS-EVT-0002","corridorId":"S-004","eventType":"slowdown","occurredAt":"2026-11-14T15:02:00.000Z","delayMin":20}
+{"eventId":"DIS-EVT-0003","corridorId":"S-003","eventType":"slowdown","occurredAt":"2026-11-14T15:04:00.000Z","delayMin":15}
+{"eventId":"DIS-EVT-0004","corridorId":"S-004","eventType":"closure","occurredAt":"2026-11-14T15:10:00.000Z"}
+{"eventId":"DIS-EVT-0005","corridorId":"S-004","eventType":"reopen","occurredAt":"2026-11-14T16:10:00.000Z"}
+{"eventId":"DIS-EVT-0006","corridorId":"S-005","eventType":"reopen","occurredAt":"2026-11-14T16:30:00.000Z"}
+{"eventId":"DIS-EVT-0001","corridorId":"S-005","eventType":"slowdown","occurredAt":"2026-11-14T15:00:00.000Z","delayMin":35,"note":"duplicate-replay-of-DIS-EVT-0001"}
+{"eventId":"DIS-EVT-0007","corridorId":"S-004","eventType":"slowdown","occurredAt":"2026-11-14T15:05:00.000Z","delayMin":40}
+{"eventId":"DIS-EVT-0008","corridorId":"S-999","eventType":"slowdown","occurredAt":"2026-11-14T15:12:00.000Z","delayMin":10}
+{"eventId":"DIS-EVT-0009","corridorId":"S-003","eventType":"slowdown","occurredAt":"2026-11-14T15:14:00.000Z","delayMin":-20}

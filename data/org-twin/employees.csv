@@ -1,0 +1,101 @@
+employee_id,display_name,facility_id,role,work_arrangement,remote_eligible,cross_site_deployable,fte,operational_criticality,knowledge_concentration,manager_id,backup_employee_id,status
+EMP-001,Avery Brooks,FAC-ATL,Site Director,Onsite,true,true,1,4,3,EMP-081,EMP-041,Active
+EMP-002,Jordan Rivera,FAC-ATL,Operations Manager,Hybrid,true,true,1,4,2,EMP-001,EMP-083,Active
+EMP-003,Taylor Thompson,FAC-ATL,Operations Manager,Onsite,true,true,1,4,5,EMP-001,EMP-062,Active
+EMP-004,Morgan Chen,FAC-ATL,Operations Analyst,Onsite,true,true,1,4,2,EMP-001,EMP-063,Active
+EMP-005,Casey Foster,FAC-ATL,Operations Analyst,Onsite,true,true,1,4,2,EMP-001,EMP-065,Active
+EMP-006,Riley Clark,FAC-ATL,Operations Analyst,Hybrid,true,true,1,3,1,EMP-001,EMP-084,Active
+EMP-007,Drew Ramirez,FAC-ATL,GIS Analyst,Onsite,true,true,1,3,1,EMP-001,EMP-046,Active
+EMP-008,Alex Park,FAC-ATL,GIS Engineer,Hybrid,true,true,1,4,3,EMP-001,EMP-087,Active
+EMP-009,Skyler Sullivan,FAC-ATL,Data Engineer,Onsite,true,true,1,3,2,EMP-001,EMP-068,Active
+EMP-010,Reese Patel,FAC-ATL,Systems Engineer,Onsite,true,true,1,4,3,EMP-001,EMP-089,Active
+EMP-011,Cameron Johnson,FAC-ATL,Cybersecurity Analyst,Onsite,true,false,1,4,5,EMP-001,EMP-050,Active
+EMP-012,Quinn Perry,FAC-ATL,Business Continuity Lead,Onsite,true,true,1,5,3,EMP-001,EMP-072,Active
+EMP-013,Parker Hughes,FAC-ATL,Workforce Coordinator,Hybrid,true,true,1,3,4,EMP-001,EMP-035,Active
+EMP-014,Jamie Torres,FAC-ATL,Service Desk Specialist,Onsite,false,true,1,2,2,EMP-001,EMP-075,Active
+EMP-015,Dakota Howard,FAC-ATL,AI Automation Engineer,Hybrid,true,true,1,4,2,EMP-001,EMP-094,Active
+EMP-016,Blake Williams,FAC-ATL,Logistics Specialist,Onsite,false,false,1,3,2,EMP-001,EMP-056,Active
+EMP-017,Finley Collins,FAC-ATL,Logistics Specialist,Onsite,false,true,1,4,4,EMP-001,EMP-096,Active
+EMP-018,Rowan Morgan,FAC-ATL,Finance Analyst,Onsite,true,true,1,4,2,EMP-001,EMP-039,Active
+EMP-019,Emerson Okafor,FAC-ATL,Communications Specialist,Remote,true,true,1,4,3,EMP-001,EMP-099,Active
+EMP-020,Sage Ward,FAC-ATL,GIS Analyst,Onsite,true,false,1,3,3,EMP-001,EMP-025,Active
+EMP-021,Elliot Hill,FAC-DEN,Site Director,Onsite,true,true,1,4,3,EMP-081,EMP-061,Active
+EMP-022,Harper Nguyen,FAC-DEN,Operations Manager,Hybrid,true,true,1,4,4,EMP-021,EMP-003,Active
+EMP-023,Remy Cooper,FAC-DEN,Operations Analyst,Hybrid,true,false,1,2,2,EMP-021,EMP-006,Active
+EMP-024,Robin Green,FAC-DEN,Operations Analyst,Onsite,true,false,1,3,2,EMP-021,EMP-004,Active
+EMP-025,Kendall Walker,FAC-DEN,GIS Analyst,Hybrid,true,false,1,4,2,EMP-021,EMP-007,Active
+EMP-026,Jules Ross,FAC-DEN,GIS Engineer,Onsite,true,true,1,4,2,EMP-021,EMP-087,Active
+EMP-027,Micah Cook,FAC-DEN,GIS Engineer,Hybrid,true,true,1,4,3,EMP-021,EMP-008,Active
+EMP-028,Payton Price,FAC-DEN,Data Engineer,Onsite,true,true,1,3,3,EMP-021,EMP-009,Active
+EMP-029,Charlie Bailey,FAC-DEN,Data Engineer,Hybrid,true,true,1,3,4,EMP-021,EMP-068,Active
+EMP-030,Arden Brooks,FAC-DEN,Data Engineer,Hybrid,true,false,1,3,1,EMP-021,EMP-048,Active
+EMP-031,Hayden Rivera,FAC-DEN,Systems Engineer,Remote,true,true,1,4,3,EMP-021,EMP-070,Active
+EMP-032,Frankie Thompson,FAC-DEN,Systems Engineer,Onsite,true,true,1,4,3,EMP-021,EMP-010,Active
+EMP-033,Sam Chen,FAC-DEN,Cybersecurity Analyst,Onsite,true,true,1,4,2,EMP-021,EMP-071,Active
+EMP-034,Lane Foster,FAC-DEN,Business Continuity Lead,Onsite,true,true,1,5,3,EMP-021,EMP-052,Active
+EMP-035,Shiloh Clark,FAC-DEN,Workforce Coordinator,Onsite,true,false,1,4,1,EMP-021,EMP-013,Active
+EMP-036,Sawyer Ramirez,FAC-DEN,Service Desk Specialist,Onsite,false,true,1,3,4,EMP-021,EMP-014,Active
+EMP-037,Logan Park,FAC-DEN,AI Automation Engineer,Hybrid,true,true,1,4,3,EMP-021,EMP-060,Active
+EMP-038,Kai Sullivan,FAC-DEN,AI Automation Engineer,Onsite,true,true,1,4,5,EMP-021,EMP-094,Active
+EMP-039,Bailey Patel,FAC-DEN,Finance Analyst,Onsite,true,true,1,3,2,EMP-021,EMP-018,Active
+EMP-040,Milan Johnson,FAC-DEN,Communications Specialist,Hybrid,true,true,1,3,2,EMP-021,EMP-099,Active
+EMP-041,Nico Russell,FAC-CHI,Site Director,Remote,true,true,1,4,3,EMP-081,EMP-021,Active
+EMP-042,Tatum Diaz,FAC-CHI,Operations Manager,Hybrid,true,true,1,4,5,EMP-041,EMP-083,Active
+EMP-043,Devon Martinez,FAC-CHI,Operations Manager,Onsite,true,false,1,4,5,EMP-041,EMP-002,Active
+EMP-044,Cory Long,FAC-CHI,Operations Analyst,Hybrid,true,true,1,2,1,EMP-041,EMP-084,Active
+EMP-045,Ariel Bennett,FAC-CHI,Operations Analyst,Hybrid,true,true,1,4,1,EMP-041,EMP-065,Active
+EMP-046,River Turner,FAC-CHI,GIS Analyst,Remote,true,true,1,2,1,EMP-041,EMP-020,Active
+EMP-047,Ellis Cruz,FAC-CHI,GIS Engineer,Remote,true,true,1,4,5,EMP-041,EMP-008,Active
+EMP-048,Marley Reed,FAC-CHI,Data Engineer,Hybrid,true,true,1,3,3,EMP-041,EMP-009,Active
+EMP-049,Sidney Bell,FAC-CHI,Systems Engineer,Remote,true,true,1,4,4,EMP-041,EMP-032,Active
+EMP-050,Avery Hill,FAC-CHI,Cybersecurity Analyst,Remote,true,true,1,4,2,EMP-041,EMP-011,Active
+EMP-051,Jordan Nguyen,FAC-CHI,Cybersecurity Analyst,Hybrid,true,true,1,4,4,EMP-041,EMP-011,Active
+EMP-052,Taylor Cooper,FAC-CHI,Business Continuity Lead,Hybrid,true,false,1,5,1,EMP-041,EMP-072,Active
+EMP-053,Morgan Green,FAC-CHI,Workforce Coordinator,Onsite,true,false,1,3,1,EMP-041,EMP-092,Active
+EMP-054,Casey Walker,FAC-CHI,Workforce Coordinator,Hybrid,true,true,1,2,4,EMP-041,EMP-035,Active
+EMP-055,Riley Ross,FAC-CHI,Service Desk Specialist,Onsite,false,true,1,2,2,EMP-041,EMP-075,Active
+EMP-056,Drew Cook,FAC-CHI,Logistics Specialist,Onsite,false,true,1,3,4,EMP-041,EMP-016,Active
+EMP-057,Alex Price,FAC-CHI,Logistics Specialist,Onsite,false,true,1,4,3,EMP-041,EMP-096,Active
+EMP-058,Skyler Bailey,FAC-CHI,Finance Analyst,Hybrid,true,true,1,3,1,EMP-041,EMP-098,Active
+EMP-059,Reese Brooks,FAC-CHI,Communications Specialist,Hybrid,true,true,1,2,1,EMP-041,EMP-099,Active
+EMP-060,Cameron Rivera,FAC-CHI,AI Automation Engineer,Onsite,true,false,1,4,4,EMP-041,EMP-094,Active
+EMP-061,Quinn Stewart,FAC-SAN,Site Director,Onsite,true,true,1,4,5,EMP-081,EMP-041,Active
+EMP-062,Parker Morales,FAC-SAN,Operations Manager,Onsite,true,false,1,4,1,EMP-061,EMP-042,Active
+EMP-063,Jamie Lewis,FAC-SAN,Operations Analyst,Onsite,true,false,1,3,3,EMP-061,EMP-045,Active
+EMP-064,Dakota Flores,FAC-SAN,Operations Analyst,Hybrid,true,true,1,2,2,EMP-061,EMP-085,Active
+EMP-065,Blake Singh,FAC-SAN,Operations Analyst,Remote,true,true,1,3,3,EMP-061,EMP-005,Active
+EMP-066,Finley Carter,FAC-SAN,GIS Analyst,Onsite,true,true,1,3,3,EMP-061,EMP-007,Active
+EMP-067,Rowan Gray,FAC-SAN,GIS Engineer,Onsite,true,false,1,4,2,EMP-061,EMP-026,Active
+EMP-068,Emerson Campbell,FAC-SAN,Data Engineer,Onsite,true,true,1,2,3,EMP-061,EMP-088,Active
+EMP-069,Sage Evans,FAC-SAN,Systems Engineer,Hybrid,true,false,1,4,4,EMP-061,EMP-089,Active
+EMP-070,Elliot Russell,FAC-SAN,Systems Engineer,Onsite,true,true,1,4,1,EMP-061,EMP-010,Active
+EMP-071,Harper Diaz,FAC-SAN,Cybersecurity Analyst,Hybrid,true,true,1,4,3,EMP-061,EMP-090,Active
+EMP-072,Remy Martinez,FAC-SAN,Business Continuity Lead,Onsite,true,true,1,5,3,EMP-061,EMP-012,Active
+EMP-073,Robin Long,FAC-SAN,Workforce Coordinator,Onsite,true,true,1,3,2,EMP-061,EMP-054,Active
+EMP-074,Kendall Bennett,FAC-SAN,Service Desk Specialist,Onsite,false,false,1,3,1,EMP-061,EMP-055,Active
+EMP-075,Jules Turner,FAC-SAN,Service Desk Specialist,Onsite,false,true,1,2,2,EMP-061,EMP-093,Active
+EMP-076,Micah Cruz,FAC-SAN,Service Desk Specialist,Onsite,false,true,1,3,1,EMP-061,EMP-036,Active
+EMP-077,Payton Reed,FAC-SAN,AI Automation Engineer,Hybrid,true,false,1,4,1,EMP-061,EMP-037,Active
+EMP-078,Charlie Bell,FAC-SAN,Logistics Specialist,Onsite,false,true,1,3,1,EMP-061,EMP-017,Active
+EMP-079,Arden Hill,FAC-SAN,Finance Analyst,Hybrid,true,true,1,2,2,EMP-061,EMP-097,Active
+EMP-080,Hayden Nguyen,FAC-SAN,Communications Specialist,Hybrid,true,false,1,3,1,EMP-061,EMP-099,Active
+EMP-081,Frankie Howard,FAC-DC,Executive Director,Hybrid,true,true,1,5,3,,EMP-021,Active
+EMP-082,Sam Williams,FAC-DC,Site Director,Onsite,true,true,1,4,2,EMP-081,EMP-041,Active
+EMP-083,Lane Collins,FAC-DC,Operations Manager,Onsite,true,true,1,4,1,EMP-082,EMP-022,Active
+EMP-084,Shiloh Morgan,FAC-DC,Operations Analyst,Hybrid,true,true,1,4,3,EMP-082,EMP-063,Active
+EMP-085,Sawyer Okafor,FAC-DC,Operations Analyst,Onsite,true,false,1,2,3,EMP-082,EMP-044,Active
+EMP-086,Logan Ward,FAC-DC,GIS Analyst,Hybrid,true,true,1,3,2,EMP-082,EMP-046,Active
+EMP-087,Kai James,FAC-DC,GIS Engineer,Onsite,true,true,1,4,1,EMP-082,EMP-026,Active
+EMP-088,Bailey Kim,FAC-DC,Data Engineer,Onsite,true,false,1,3,3,EMP-082,EMP-030,Active
+EMP-089,Milan Young,FAC-DC,Systems Engineer,Onsite,true,true,1,4,3,EMP-082,EMP-069,Active
+EMP-090,Nico Stewart,FAC-DC,Cybersecurity Analyst,Onsite,true,true,1,4,2,EMP-082,EMP-051,Active
+EMP-091,Tatum Morales,FAC-DC,Business Continuity Lead,Hybrid,true,true,1,5,2,EMP-082,EMP-034,Active
+EMP-092,Devon Lewis,FAC-DC,Workforce Coordinator,Remote,true,false,1,2,3,EMP-082,EMP-035,Active
+EMP-093,Cory Flores,FAC-DC,Service Desk Specialist,Onsite,false,false,1,2,3,EMP-082,EMP-055,Active
+EMP-094,Ariel Singh,FAC-DC,AI Automation Engineer,Onsite,true,true,1,4,3,EMP-082,EMP-060,Active
+EMP-095,River Carter,FAC-DC,AI Automation Engineer,Hybrid,true,false,1,4,5,EMP-082,EMP-077,Active
+EMP-096,Ellis Gray,FAC-DC,Logistics Specialist,Onsite,false,true,1,3,3,EMP-082,EMP-057,Active
+EMP-097,Marley Campbell,FAC-DC,Finance Analyst,Onsite,true,true,1,3,3,EMP-082,EMP-058,Active
+EMP-098,Sidney Evans,FAC-DC,Finance Analyst,Hybrid,true,true,1,2,1,EMP-082,EMP-058,Active
+EMP-099,Avery Russell,FAC-DC,Communications Specialist,Onsite,true,true,1,4,2,EMP-082,EMP-080,Active
+EMP-100,Jordan Diaz,FAC-DC,Communications Specialist,Hybrid,true,true,1,4,2,EMP-082,EMP-040,Active

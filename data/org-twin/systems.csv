@@ -1,0 +1,11 @@
+system_id,system_name,hosting_facility_id
+SYS-AUTO,Automation Orchestrator,FAC-DEN
+SYS-COM,Secure Collaboration,FAC-CHI
+SYS-CRM,Service Case Management,FAC-SAN
+SYS-DATA,Data Warehouse,FAC-DEN
+SYS-ERP,Enterprise Resource Planning,FAC-DC
+SYS-FIN,Financial Planning,FAC-CHI
+SYS-GIS,Geospatial Analytics Platform,FAC-DEN
+SYS-HR,Workforce Management,FAC-DC
+SYS-ID,Identity and Access,FAC-DC
+SYS-INC,Incident Management,FAC-ATL

@@ -1,0 +1,10 @@
+customer_id,display_name,phone,email
+CUST-001,Harbor Crest Retail Group,555-0114,dispatch@harborcrestretail.example
+CUST-002,Pacific Rim Foods Co-op,555-0127,receiving@pacificrimfoods.example
+CUST-003,Inland Auto Components,555-0138,logistics@inlandautoparts.example
+CUST-004,Meridian Textile Supply,555-0149,orders@meridiantextile.example
+CUST-005,Golden State General Mdse,555-0162,ops@goldenstategm.example
+CUST-006,BrightPoint Electronics,555-0173,warehouse@brightpointelex.example
+CUST-007,Southland Food Distributors,555-0185,inbound@southlandfood.example
+CUST-008,Valley Auto Import Parts,555-0196,shipping@valleyautoimport.example
+CUST-009,Coastline Apparel Trading,555-0208,receiving@coastlineapparel.example
