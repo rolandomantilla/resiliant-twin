@@ -53,6 +53,64 @@ const MAP_LEGEND = [
   ["Dark circle", "Truck — simulated position along its route"],
 ] as const;
 
+const WORKFLOW = [
+  [
+    "Load data",
+    "Ports, warehouses, trucks, drivers, shipments, receiving slots, and the road network are loaded from the demo dataset.",
+  ],
+  [
+    "Plan normal day",
+    "The engine assigns trucks to shipments with no disruptions. This becomes the baseline for every comparison.",
+  ],
+  [
+    "Describe a disruption",
+    "You type into the Scenario Assistant or change the controls bar (closure, slowdown, preference, diesel price).",
+  ],
+  [
+    "Recalculate",
+    "The engine reroutes around closed or slow roads, reassigns trucks, and recomputes ETAs, cost, and CO₂.",
+  ],
+  [
+    "Review impact",
+    "KPI cards, the map, and the Shipment Plan update together and show the change versus the baseline.",
+  ],
+  [
+    "Recover",
+    "Unscheduled shipments move to Exceptions & Recovery with the next feasible receiving slot.",
+  ],
+  [
+    "Notify & export",
+    "Send demo delay notices from Outreach and download CSV / GeoJSON / manifest files.",
+  ],
+] as const;
+
+const ARCHITECTURE = [
+  [
+    "Screens",
+    "Dispatch Dashboard (KPIs, map, tables, assistant), Data Feed & Replay, and this guide.",
+  ],
+  [
+    "Scenario Assistant",
+    "Uses the Bolt AI model only to understand your request and pick settings. If AI is unavailable it falls back to built-in pattern matching (Demo mode). Replies are written from the computed results, so shipment IDs, costs, and ETAs are never invented.",
+  ],
+  [
+    "Routing & scheduling engine",
+    "Runs the scenario on a simplified road model (9 junctions, 13 road segments), assigns trucks within driver-hour and warehouse-capacity limits, and finds recovery slots.",
+  ],
+  [
+    "Map",
+    "ArcGIS map with public Esri basemaps. Route lines follow real streets (OSRM); timing and closures come from the simplified road model.",
+  ],
+  [
+    "Database",
+    "Stores facilities, fleet, drivers, shipments, slots, road network, telemetry and disruption events, live truck/road state, outreach notices, and chat history.",
+  ],
+  [
+    "Data Feed & Replay",
+    "Replays sample truck telemetry and road events, validates each one, and updates live state — newest reading always wins.",
+  ],
+] as const;
+
 function Section({
   title,
   children,
@@ -85,6 +143,49 @@ function UserGuidePage() {
             <li key={step}>{step}</li>
           ))}
         </ol>
+      </Section>
+
+      <Section title="How it works — workflow">
+        <ol className="space-y-2">
+          {WORKFLOW.map(([step, detail], i) => (
+            <li key={step} className="flex gap-3">
+              <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-medium text-primary-foreground">
+                {i + 1}
+              </span>
+              <p>
+                <span className="font-medium text-foreground">{step}</span> —{" "}
+                {detail}
+              </p>
+            </li>
+          ))}
+        </ol>
+      </Section>
+
+      <Section title="Architecture">
+        <p>
+          Everything runs from one computed scenario, so every screen always
+          shows the same result.
+        </p>
+        <div className="rounded-lg border border-border bg-muted/30 p-3 text-center text-xs text-foreground">
+          You (assistant or controls) → Settings → Routing &amp; scheduling
+          engine ← Database
+          <br />↓<br />
+          KPI cards · Map · Shipment Plan · Exceptions · Outreach · Exports
+        </div>
+        <div className="overflow-hidden rounded-lg border border-border">
+          <table className="w-full text-left text-sm">
+            <tbody className="divide-y divide-border">
+              {ARCHITECTURE.map(([part, role]) => (
+                <tr key={part}>
+                  <td className="w-44 px-3 py-2 align-top font-medium text-foreground">
+                    {part}
+                  </td>
+                  <td className="px-3 py-2">{role}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </Section>
 
       <Section title="The Scenario Assistant">
